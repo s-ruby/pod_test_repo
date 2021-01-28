@@ -20,20 +20,12 @@ and making sure the response is "fatal: not a git repository (or any of the pare
 ```
 $ cd ..
 ```
-to move to the parent directory. Once you're in the parent directory, check the status again to make sure you're not in a repository. Keep doing this until you're not in a repository.
+to move to the parent directory. Once you're in the parent directory, check the status again to make sure you're not in a repository. Keep doing this until you're not in a repository. 
 
-Make a new folder called **03_git_collab**:
-```
-$ mkdir 03_git_collab
-```
-Move into this folder:
-```
-$ cd 03_git_collab
-```
-Check that the folder is empty by listing all the files in it:
-```
-$ ls -al
-```
+#### Now, it is **up to you** where to put this Github repository on your computer, but this repository is one that you will use a lot for this class!
+
+So, putting it somewhere you can find easily, such as `/aeshna/Documents/jtc/` might be helpful
+
 Clone your GitHub repository into this folder:
 ```
 $ git clone https://github.com/{your_username}/{repo_name}.git
@@ -50,7 +42,7 @@ You should see a message that says "Switched to a new branch '{your_first_name}'
 
 ## Step 3: Customizing your README
 
-A repository can have multiple READMEs. Let's name the repository `A`. `A` has a README and a directory called `B`. If we look at the repository on GitHub, we can see that GitHub renders the README. Let's assume there's also a README inside `B`. If we open up `B` on GitHub, we will see the README from `B` is now rendered. For today, we will create a README in your folder.
+A repository can have multiple READMEs. For example, let's think of a hypothetical repository called `A`. `A` has a README and a directory called `B`. If we look at the repository on GitHub, we can see that GitHub renders the README. Let's assume there's also a README inside `B`. If we open up `B` on GitHub, we will see the README from `B` is now rendered. For today, we will create a README in your folder.
 
 Move into this folder:
 ```
@@ -60,6 +52,8 @@ To make a file named **README.md**, run the command:
 ```
 $ touch README.md
 ```
+
+If you don't want to use `touch` or are on a machine where this command doesn't work, you can open up the repo in VSCode or Sublime and create your `README.md` file inside your personal folder that way.
 
 Now open up this file in VS Code and add whatever you would like to it. [Here](https://www.markdownguide.org/cheat-sheet/) is the cheat sheet for Markdown. Make sure to save your file once you're done editing it.
 
@@ -87,4 +81,16 @@ $ git push origin {your_first_name}
 
 ## Step 5: Opening a PR in GitHub
 
-On GitHub, you can now see that there are more branches created. If you click on the drop down menu that says "Main", you can see all the other branches (yours and your peers'). Now, to open a pull request, let's click on **Pull Requests** on the top menu of the repository (the other options in this menu are Code, Issues, etc). Click the green button that says **New Pull Request**. Leave the base branch as "Main," but change the compare branch to your branch. On the next page, press the green button that says **Create Pull Request**. On the next page, name your pull request something meaningful and add your pod TA as a reviewer on the right hand side. Last, press the green button that says **Create Pull Request**. You have now opened a pull request! You can take a look at the other branches and PRs to get a sense of how GitHub collaboration works. 
+On GitHub, you can now see that there are more branches created. If you click on the drop down menu that says "Main", you can see all the other branches (yours and your peers'). Now, to open a pull request, let's click on **Pull Requests** on the top menu of the repository (the other options in this menu are Code, Issues, etc). Click the green button that says **New Pull Request**. 
+
+You should see that Github checks quickly, then tells you that your changes can be automatically merged. 
+
+### Make sure you submit your pull request to your pod's repo!
+
+Once you open the pull request, there is something very important to check! You want to make sure you will be sending your pull request to the repo for your pod, not the more general JTC repo. So, you'll want to make sure that in the option on the left where you are asked to 'Choose a base repository', **you want to choose the repository that is linked to your TAs account and is labeled for your pod. Do not choose the one linked to the Justice-Through-Code account**
+
+On the next page, press the green button that says **Create Pull Request**. On the next page, name your pull request something meaningful and add your pod TA as a reviewer on the right hand side. Last, press the green button that says **Create Pull Request**. You have now opened a pull request! You can take a look at the other branches and PRs to get a sense of how GitHub collaboration works. 
+
+Now that you've done this, talk to your TA and watch what they do when they see the pull request you have submitted.
+
+Congrats on finishing this challenge! You are officially a Github collaborator now!
