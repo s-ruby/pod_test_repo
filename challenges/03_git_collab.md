@@ -87,10 +87,18 @@ You should see that Github checks quickly, then tells you that your changes can 
 
 ### Make sure you submit your pull request to your pod's repo!
 
-Once you open the pull request, there is something very important to check! You want to make sure you will be sending your pull request to the repo for your pod, not the more general JTC repo. So, you'll want to make sure that in the option on the left where you are asked to 'Choose a base repository', **you want to choose the repository that is linked to your TAs account and is labeled for your pod. Do not choose the one linked to the Justice-Through-Code account**
 
-On the next page, press the green button that says **Create Pull Request**. On the next page, name your pull request something meaningful and add your pod TA as a reviewer on the right hand side. Last, press the green button that says **Create Pull Request**. You have now opened a pull request! You can take a look at the other branches and PRs to get a sense of how GitHub collaboration works. 
+
+
+Once you open the pull request, there is something very important to check! You want to make sure you will be sending your pull request to the repo for your pod, not the more general JTC repo. So, you'll want to make sure that in the option on the left where you are asked to 'Choose a base repository', **you want to choose the repository that is linked to your TAs account and is labeled for your pod. Do not choose the one linked to the Justice-Through-Code account.**
+
+
+<img src="images/pull_request_base_repo.png"  width="800">
+
+
+Once you have confirmed that you have selected the correct base repository,  you are all set! On the next page, press the green button that says **Create Pull Request**. On the next page, name your pull request something meaningful and add your pod TA as a reviewer on the right hand side. Last, press the green button that says **Create Pull Request**. You have now opened a pull request! You can take a look at the other branches and PRs to get a sense of how GitHub collaboration works. 
 
 Now that you've done this, talk to your TA and watch what they do when they see the pull request you have submitted.
 
 Congrats on finishing this challenge! You are officially a Github collaborator now!
+
