@@ -1,6 +1,6 @@
 # Pod 5 Test Repo
 
-To do before each breakout session:
+# To do before each breakout session:
 
 `git pull` on the **main** branch.
 - To check which branch you are on, use `git branch`
@@ -11,10 +11,10 @@ When you pull, you will get all the new files and changes made by our pod.
 You will also be able to find the class challenges in the challenge folder.
 
 
-To do after you complete your challenge:
+# To do after you complete your challenge:
 
 create your own branch. a good branch name is something like this: `serena-strings`
-`git checkout -b [YOUR_BRANCH_NAME]` --> `git checkout -b serena-strings`
+- `git checkout -b [YOUR_BRANCH_NAME]` --> `git checkout -b serena-strings`
 
 - `git status` -> check for new or modified files
 - `git add [FILE NAME]` --> add file so git will track it
