@@ -31,12 +31,16 @@ elif ...
 else ...
 '''
 
-if stock == 'fb' and savings > fb:
-    print(f'You can purchase {savings/fb} shares of Facebook stock')
-elif stock == 'fb' and savings < fb:
-    print(f'You do not have enough money to purchase any Facebook stock')
-else:
-    print('You can purchase one share of Facebook stock')
+if stock == 'amzn':
+    print(f'{name} can purchase {int(savings)/amazon} shares of {stock} stock')
+elif stock == 'aapl':
+    print(f'{name} can purchase {int(savings)/apple} shares of {stock} stock')
+elif stock == 'fb':
+    print(f'{name} can purchase {int(savings)/fb} shares of {stock} stock')
+elif stock == 'goog':
+    print(f'{name} can purchase {int(savings)/google} shares of {stock} stock')
+elif stock == 'msft':
+    print(f'You can purchase {savings/msft} shares of Microsoft stock')
 
 print()
 
@@ -44,5 +48,5 @@ print("Challenge 3.2.3: Output for the user the result")
 # TODO: COnce you have calculated the number of stocks that can be purchased, print the result for the client. Result should be in a format like this:
 
 # Alex has $5000 in savings and he can buy 50 shares of Apple at the current price of $100.
-print(f'{name} has ${savings} in savings and can buy {int(savings)/apple} shares of Apple at the current price of ${apple}.')
+print(f'{name} has ${savings} in savings and can buy {int(savings)/apple} shares of {stock} at the current price of ${apple}.')
 print()
