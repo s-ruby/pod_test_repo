@@ -12,11 +12,11 @@ msft = 200
 
 print("Challenge 3.2.1: Taking user input")
 # TODO: Write code to ask the client his name and save it to a variable.
-name = input('What is your name?')
+name = input('What is your name? ')
 # TODO: Write code to ask the client his savings and save it to another variable.
-savings = input("What is your savings?")
+savings = input("What is your savings? ")
 # TODO: Write code to ask the client the stock he is interested in and save it to another variable, as shown below.
-stock = input("Which stock are you interested in? Type 'amzn' for Amazon, 'aapl' for Apple, 'fb' for Facebook, 'goog' for Google and 'msft' for Microsoft.")
+stock = input("Which stock are you interested in? Type 'amzn' for Amazon, 'aapl' for Apple, 'fb' for Facebook, 'goog' for Google and 'msft' for Microsoft ")
 
 print()
 
@@ -32,15 +32,26 @@ else ...
 '''
 
 if stock == 'amzn':
-    print(f'{name} can purchase {int(savings)/amazon} shares of {stock} stock')
+    price = amazon
+    number_of_shares = int(savings)/price
+    
+    # print(f'{name} can purchase {int(savings)/price} shares of {stock} stock')
 elif stock == 'aapl':
-    print(f'{name} can purchase {int(savings)/apple} shares of {stock} stock')
+    price = apple
+    number_of_shares = int(savings)/price
+    # print(f'{name} can purchase {int(savings)/price} shares of {stock} stock')
 elif stock == 'fb':
-    print(f'{name} can purchase {int(savings)/fb} shares of {stock} stock')
+    price = fb
+    number_of_shares = int(savings)/price
+    # print(f'{name} can purchase {int(savings)/price} shares of {stock} stock')
 elif stock == 'goog':
-    print(f'{name} can purchase {int(savings)/google} shares of {stock} stock')
+    price = google
+    number_of_shares = int(savings)/price
+    # print(f'{name} can purchase {int(savings)/price} shares of {stock} stock')
 elif stock == 'msft':
-    print(f'You can purchase {savings/msft} shares of Microsoft stock')
+    price = msft
+    number_of_shares = int(savings)/price
+    # print(f'You can purchase {savings/price} shares of Microsoft stock')
 
 print()
 
@@ -48,5 +59,5 @@ print("Challenge 3.2.3: Output for the user the result")
 # TODO: COnce you have calculated the number of stocks that can be purchased, print the result for the client. Result should be in a format like this:
 
 # Alex has $5000 in savings and he can buy 50 shares of Apple at the current price of $100.
-print(f'{name} has ${savings} in savings and can buy {int(savings)/apple} shares of {stock} at the current price of ${apple}.')
+print(f'{name} has ${savings} in savings and can buy {number_of_shares} shares of {stock} at the current price of ${price}.')
 print()
