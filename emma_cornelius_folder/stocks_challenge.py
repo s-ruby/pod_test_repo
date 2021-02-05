@@ -62,4 +62,4 @@ print("Challenge 3.2.3: Output for the user the result")
 if price == "0":
     print("incorrect stock.")
 else:
-    print(f"{name} has ${savings} in savings and he can buy {numStocks} shares of {stock} at the current price of ${100}. ")
+    print(f"{name} has ${savings} in savings and he can buy {numStocks} shares of {stock} at the current price of ${price}. ")
