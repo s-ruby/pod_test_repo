@@ -30,12 +30,17 @@ restaurant = {
     "transactions": ["pickup", "delivery"]
 }
 
+
 print(restaurant)
 
-# TODO: Write code to print the latitude and longitude of Four Barrel Coffee.
-# TODO: Write code to print the complete address of the Four Barrel Coffee, formatted as a string - it should include the address, city, state and the zip code.
-# TODO: Write code to print the URL of the website of Four Barrel Coffee.
+print()
 
+# TODO: Write code to print the latitude and longitude of Four Barrel Coffee.
+print(f'The {restaurant["name"]} shop is located at {restaurant["latitude"]} and {restaurant["latitude"]}') 
+# TODO: Write code to print the complete address of the Four Barrel Coffee, formatted as a string - it should include the address, city, state and the zip code.
+print(f'The {restaurant["name"]} shop street address is {restaurant["address1"]} {restaurant["city"]} {restaurant["state"]} {restaurant["zip_code"]}')
+# TODO: Write code to print the URL of the website of Four Barrel Coffee.
+print(f'The {restaurant["name"]} email address is {restaurant["url"]}')
 
 print()
 
@@ -56,6 +61,25 @@ restaurant_1  = {
     "address" : "116th & Broadway, NY 10016",
     "favourite_dish" : "Chicken BLT Sandwich" }
 '''
+restaurant_1  = {
+    "name": "Lenwhich",
+    "address" : "97th St & Broadway, NY 10025",
+    "favourite_dish" : "Chicken BLT Sandwich" }
+
+restaurant_2  = {
+    "name": "Five Guys",
+    "address" : "110th St & Broadway, NY 10025",
+    "favourite_dish" : "Mushroom Cheese Burger" }   
+
+restaurant_3  = {
+    "name": "Maylasian Grill",
+    "address" : "104th St b/w Broadway & Amsterdam Ave, NY 10025",
+    "favourite_dish" : "Pineapple Fried Rice w/ Chicken & Cashew Nuts" }   
+
+   
+print(restaurant_1)
+print(restaurant_2)
+print(restaurant_3)
 
 print()
 
@@ -67,6 +91,9 @@ Remove the 'favourite_dish' key value pair from that restaurant's dictionary
 
 # TODO: Remove the 'favourite_dish' key-value pair from one of your 3 restaurants
 # TODO: Print the new dictionary. The new dictionary should only contain 'name' and 'address' for that restaurant
+
+restaurant_3.pop("favourite_dish")
+print(restaurant_3)
 
 print()
 
@@ -80,4 +107,7 @@ Update just this value in that restaurant's dictionary
 # TODO: Print the new address of the restaurant by accessing that field of the restaurant's dictionary
 # TODO: Print the updated dictionary.
 
+restaurant_1 ["address"] = "93rd St & Central Park West, NY 10025"
+print(restaurant_1["address"])
+print(restaurant_1)
 print()
