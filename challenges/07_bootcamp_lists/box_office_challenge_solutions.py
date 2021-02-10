@@ -24,7 +24,7 @@ print(remaining_50_list)
 # TODO: Let's make sure "remaining_50_list" has exactly 50 movie titles
 print(len(remaining_50_list))
 
-# TODO: Great! Let's join the two lists into one list called "top_100". Uncomment the line of code below and run your code to see how it's done!
+# TODO: Great! Let's join the two lists into one list called "top_100". 
 # Note: Print your new variable to see the combined list of movies
 top_100 = top_50_list + remaining_50_list
 print(top_100)
