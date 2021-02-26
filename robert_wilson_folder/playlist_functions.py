@@ -1,3 +1,4 @@
+print()
 # NOTE: these first two functions do not have to be edited
 
 # prints out what is in your playlist
