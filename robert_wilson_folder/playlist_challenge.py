@@ -1,4 +1,3 @@
-print()
 # Music playlist challenge!
 # In this challenge, you'll have to both work on this script, and the accompanying script playlist_functions.py
 # All of your functions should be in the other script (playlist_functions.py)
