@@ -23,6 +23,7 @@ print()
 # 'artist' (string)
 # 'title' (string)
 
+
 '''
 example_song = {'artist': 'Lauryn Hill', 'title': 'Everything Is Everything'}
 '''
